@@ -1,0 +1,24 @@
+body{
+  font-family: helvetica;
+}
+table{
+  border: 1px solid #000000;
+  background-color: #e54661;
+
+  }
+th, td{
+  border: 1px solid #000000;
+  padding: 1em;
+  background-color: #ffa644;
+}
+th{
+  background-color: #998a2f;
+}
+
+#save:hover{
+  background-color: #2c594f;
+}
+
+h1, h3{
+  color: #002d40;
+}
