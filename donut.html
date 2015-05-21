@@ -5,19 +5,41 @@
     <link rel="stylesheet" href="donut.css">
   </head>
   <body>
-    <h1>Donut Shop</h1>
+    <h1>Top Pot Donuts</h1>
+    <p>Here is a table with Top Pot Donut locations around the Seattle area. It shows the average donuts purchased per hour by customers as well as the daily total for the 5 locations. Add your own local shop to the table in the spaces provided below.</p>
     <table>
       <thead></thead>
       <tbody id="locations_table">
-        <tr id="hours_operation"></tr>
+        <tr id="hours_operation">
+          <th>Location</th>
+          <th>7am</th>
+          <th>8am</th>
+          <th>9am</th>
+          <th>10am</th>
+          <th>11am</th>
+          <th>12pm</th>
+          <th>1pm</th>
+          <th>2pm</th>
+          <th>3pm</th>
+          <th>4pm</th>
+          <th>5pm</th>
+          <th>Total</th>
+        </tr>
       </tbody>
     </table>
     <h3>Add New A Location</h3>
-    <p>Location Name:<input class="new_location"></p>
-    <p>Minimum Customers Per Hour:<input class="new_location"></p>
-    <p>Maximum Customers Per Hour:<input class="new_location"></p>
-    <p>Average Donuts Purchased Per Customer:<input class="new_location"></p>
-    <button id="save">Save</button>
-    <script type="text/javascript" src="donut.js"></script>
+    <label for="loc">Loc:</label>
+    <input id="loc" type="text" placeholder="Location">
+    <label for="hrs">Hrs:</label>
+    <input id="hrs" type="number" placeholder="Hours Open">
+    <label for="avg">Avg:</label>
+    <input id="avg" type="number" placeholder="Avg Donuts/Customer">
+    <label for="min">Min:</label>
+    <input id="min" type="number" placeholder="Min Customers/Hour">
+    <label for="max">Max:</label>
+    <input id="max" type="number" placeholder="Max Customers/Hour">
+    <br></br>
+    <button id="sub">Submit</button>
+    <script type="text/javascript" src="old_donut.js"></script>
   </body>
 </html>
