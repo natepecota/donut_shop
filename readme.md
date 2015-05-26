@@ -1,1 +1,1 @@
-This is a table that shows the average donuts purchased per hour by customers as well as the daily total for 5 donut shop locations around the Seattle area. I worked with Tristan to add some style and color to my donut shop page.
+This is a table that shows the average donuts purchased per hour by customers as well as the daily total for 5 donut shop locations around the Seattle area. I worked with Tristan to add some style and color to my donut shop page. I added some transformations and animations to the page.

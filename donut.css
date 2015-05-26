@@ -56,13 +56,13 @@ body {
   background-image: url("assorted-donuts.jpg");
   background-position: center center;
 }
+
 table {
   border: 1px solid #000000;
   background-color: #e54661;
   width: 75%;
   text-align: center;
-  margin-left: 20px;
-  margin-top: 20px;
+  margin: 0 auto;
 }
 
 th {
@@ -74,7 +74,7 @@ th {
 }
 
 #sub:hover {
-  background-color: #998a2f;
+  background-color: #e54661;
 }
 
 td {
@@ -92,12 +92,9 @@ h1 {
   font-size: 50px;
   border: 2px solid;
   border-color: #ffffff;
-  position: fixed;
-  width: 20%;
+  width: 100%;
   margin-bottom: 20px;
-  margin-left: 1000px;
-  opacity: .75;
-
+  margin-left: 0 auto;
 }
 
 main {
@@ -134,23 +131,65 @@ section > p {
   padding: 10px;
   border: 4px solid #2c594f;
   margin: 20px;
-  position: relative;
-  top: 10px;
-  left: 20px;
 }
 
 .clear {
   clear: left;
 }
 
-button {
-  background-color: #e54661;
-  margin-left: 20px;
-  position: absolute;
-}
-
 p.intro:first-letter {
   font-size: 200%;
   font-weight: bold;
 }
+
+.box-2 {
+  transform: rotate(-17deg) scale(1.75) translateY(30px);
+  font-size: 48px;
+}
+
+button {
+  border: 0;
+  background: #2c594f;
+  border-radius: 20px;
+  box-shadow: 0 5px 0 #e54661;
+  color: #ffffff;
+  cursor: pointer;
+  font: Helvetica Arial sans-serif;
+  font-size: 24px;
+  margin-left: 20px;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+  background: #2c594f;
+  transition-property: background;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+button:active {
+  box-shadow: 0 4px 0 #2c594f;
+  transform: translateY(3px);
+}
+
+button:hover {
+  background: #e54661;
+}
+
+.new-loc {
+  background: #2c594f;
+  border-radius: 20px;
+  transition-property: background, border-radius;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear, ease-in;
+}
+.new-loc:hover {
+  background: #e54661;
+  border-radius: 85%;
+}
+
+.data {
+  border-radius: 20px;
+}
+
+
+
 
